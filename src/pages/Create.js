@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 //import ButtonGroup from "@material-ui/core/ButtonGroup";
 // icons
-import SendIcon from "@material-ui/icons/Send";
+//import SendIcon from "@material-ui/icons/Send";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 
 const Create = () => {
