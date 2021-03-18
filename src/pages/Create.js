@@ -8,19 +8,7 @@ import Button from "@material-ui/core/Button";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 
 //styles
-const useStyles = makeStyles(theme => ({
-  btn: {
-    fontSize: 16,
-    backgroundColor: "violet",
-    "&:hover": {
-      backgroundColor: "blue",
-    },
-    title: {
-      textDecoration: "underline",
-      marginBottom: 20,
-    },
-  },
-}));
+const useStyles = makeStyles(theme => ({}));
 
 const Create = () => {
   const classes = useStyles();
