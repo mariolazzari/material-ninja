@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 
-export default function Notes() {
+function Notes() {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
@@ -38,3 +38,5 @@ export default function Notes() {
     </Container>
   );
 }
+
+export default Notes;
