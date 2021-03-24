@@ -25,9 +25,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Notes />
-          </Route>
+          <Route exact path="/" component={Notes} />
           <Route path="/create">
             <Create />
           </Route>

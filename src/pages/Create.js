@@ -20,7 +20,7 @@ const useStyles = makeStyles({
   },
 });
 
-function Create() {
+export default function Create() {
   const classes = useStyles();
   const history = useHistory();
   const [title, setTitle] = useState("");
@@ -116,5 +116,3 @@ function Create() {
     </Container>
   );
 }
-
-export default Create;
